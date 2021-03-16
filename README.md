@@ -1,6 +1,6 @@
 # proyecto_TP
 
-## Equipo Menu
+## Equipo Inicio/Menu
 * Briones Gabriel
 * Burgos Joaquin
 * Irusta Eriq
@@ -10,7 +10,7 @@
 * Labarta Joaquin
 * Facundo Rodriguez
 
-## Equipo Formulario
+## Equipo Info Random de NZ
 * Dappiano Maximo
 * Flores Thomas
 * El Pachu
