@@ -12,4 +12,6 @@ CREATE TABLE `provincia` (
   `nombre` varchar(20) NOT NULL,
   PRIMARY KEY  (`id`));
 
-  
+  insert into provincia (id, nombre) VALUES ('','Buenos Aires');
+  insert into provincia (id, nombre) VALUES ('','Cordoba');
+  insert into provincia (id, nombre) VALUES ('','CABA'); 
