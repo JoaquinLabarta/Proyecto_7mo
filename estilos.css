@@ -1,0 +1,22 @@
+h2 {
+    color:green;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1cm;
+}
+
+.Box {
+    float: left;
+    width: 92%;
+    border: 5px solid;
+    padding: 40px;
+    margin: 20px;
+}
+
+.Imagenes {
+    border: 10px solid black;
+}
