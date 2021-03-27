@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Formulario</title>
+</head>
+<body>
+	<br>
+    <a href="contactos.html">
+    <button type="button" class="btn btn-dark">Volver</button>
+	</a>
+	<div class="container">
+    <h2>Reserva tu pasaje</h2>
+        <div class="form-group col-md-12">
+            <div class="input-group margin-bottom-sm">
+                <input class="form-control" type="email" placeholder="Ingrese su DNI" required>
+    </div>
+    <br>
+    <div class="form-group col-md-12">
+            <div class="input-group margin-bottom-sm">
+                <input class="form-control" type="text" placeholder="Ingrese su Nombre" required>
+    </div>
+    <br>
+    <div class="form-group col-md-12">
+            <div class="input-group margin-bottom-sm">
+                <input class="form-control" type="text" placeholder="Ingrese su Apellido" required>
+    </div>
+    <br>
+    <div class="form-group col-md-6">
+        <select id="opciones" name="opciones" class="form-control" required>
+          <option value="">- Elija la provincia -</option>
+          <option value="1">Cordoba</option>
+          <option value="2">Ezeiza</option>
+        </select>
+      </div>
+      <br> 
+    <h2> Seleccione el numero de su vuelo</h2>
+    <div class="form-group col-md-12">
+       <input type="radio" name="numvuelo"> Vuelo Nro 243<br>
+       <input type="radio" name="numvuelo"> Vuelo Nro 267<br>
+       <input type="radio" name="numvuelo"> Vuelo Nro 145<br>
+      </div>
+      <br><hr>
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Planes</h1>
+  <p class="lead">Aqui puede elegir el plan con el que va a realizar su pedido</p>
+</div>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Pupilo</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$110k <small class="text-muted">/ 12 cuotas con interes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Salida: Cordoba</li>
+          <li>Destino: Wellington</li>
+          <li>Horario de salida: 12:00</li>
+          <li>Horario de llegada 22:10</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Pagar</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Argentina</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$140k <small class="text-muted">/ 12 cuotas sin interes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Salida: Ezeiza</li>
+          <li>Destino: Auckland</li>
+          <li>Horario de salida: 14:40</li>
+          <li>Horario de llegada 22:15</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Pagar</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Express</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$180k <small class="text-muted">/ 12 cuotas sin interes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Salida: Ezeiza</li>
+          <li>Destino: Queenstown</li>
+          <li>Horario de salida: 15:05</li>
+          <li>Horario de llegada 23:35</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Pagar</button>
+      </div>
+    </div>
+  </div>
+    <button type="button" class="btn btn-info">Confirmar Pago</button>
+</div>   
+
+</body>
+</html>
